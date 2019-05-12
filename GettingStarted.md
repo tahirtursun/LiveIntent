@@ -1,13 +1,41 @@
-# getting started instructions for java cucumber framework
+# getting started instructions
 
-To run the project
-1.after cloning the code to intelliJ
-go to src/test/java/com.liveintent/runners/cukes runner
+This is a java cucumber framework
 
-2.Run the code using Maven commend via intellij terminal
- go to root folder of the project and type 
-  to see if there is any compile issue
-  - maven verify
-  if build seccess, then run the code using commend below
+- page object model structure
+     java class is created for identifying the elements on the page using page factory design
+     maintainable, reusable ,readale
+
+- cucumber BDD framework
+     written in Gherkin (plain English syntax)
+     feature file is created for the test cases given
+     written in Gherkin (plain English syntax)
+     understandable for non-technical team members
+
+- utilities package
+    Driver class is created using singleton pattern so I can easily switch between browsers
+    and closeDriver method to close the driver after each run
+
+- Configuration.properties file where 
+    browser type ,URL , username and password can be stored and can be easily changed
+
+- Runners class
+    where I can run my project and manage which tests I want to run using the cucumber tags
+  
+  
+
+
+#To run the project on intelliJ
+    after cloning the code to intelliJ
+    go to src/test/java/com.liveintent/runners/cukes runner
+
+
+
+
+#Run the code using Maven commend via intellij terminal
+    go to root folder of the project and type 
+    to see if there is any compile issue
+    - maven verify
+    if no isssue, then run the code using commend below
     -maven test
 
