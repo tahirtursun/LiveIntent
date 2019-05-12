@@ -24,6 +24,8 @@ This is a java cucumber framework (BDD)
   
 
 
+# How to run the project
+
 To run the project on intelliJ
     
      after cloning the code
