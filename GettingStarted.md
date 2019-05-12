@@ -26,10 +26,9 @@ This is a java cucumber framework (BDD)
 
 # How to run the project
 
-To run the project on intelliJ
-    
-     after cloning the code
-   - go to src/test/java/com.liveintent/runners/cukes runner
+To run the project on intellij
+  
+  - go to src/test/java/com.liveintent/runners/cukes runner
 
 
 
