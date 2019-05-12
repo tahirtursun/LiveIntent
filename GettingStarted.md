@@ -27,15 +27,15 @@ This is a java cucumber framework (BDD)
 # How to run the project
 
 To run the project on intellij
-  
+
   - go to src/test/java/com.liveintent/runners/cukes runner
 
 
 
 
-Run the code using Maven commend via intellij terminal
+Run the code using Maven commend via intellij terminal 
     
-    - go to root folder of the project
+    - go to root folder of the project use maven commends below
     
     - maven verify
   
