@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14998776200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Liveintent Started Button Test",
+        "description": "",
+        "id": "liveintent;liveintent-started-button-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1036810500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8715362400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to the homepage",
+            "match": {
+              "location": "LiveIntentStepDefinitions.user_navigate_to_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44067500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should verify Get Started button is on the homepage",
+            "match": {
+              "location": "LiveIntentStepDefinitions.user_should_verify_Get_Started_button_is_on_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8557886300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to Click on the Get Started button",
+            "match": {
+              "location": "LiveIntentStepDefinitions.user_should_be_able_to_Click_on_the_Get_Started_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16195000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be able to navigate to free evaluation page",
+            "match": {
+              "location": "LiveIntentStepDefinitions.user_should_be_able_to_navigate_to_free_evaluation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31704300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to verify CONTACT US button is displayed",
+            "match": {
+              "location": "LiveIntentStepDefinitions.user_should_be_able_to_verify_CONTACT_US_button_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@liv"
+          }
+        ]
+      }
+    ],
+    "name": "Liveintent",
+    "description": "",
+    "id": "liveintent",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\liveintent.feature",
+    "tags": []
+  }
+]
